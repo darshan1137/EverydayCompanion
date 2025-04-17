@@ -29,7 +29,13 @@ android {
 }
 
 dependencies {
-
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
+    implementation("com.android.volley:volley:1.2.1")
+    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.2.0")
+    androidTestImplementation("androidx.test:runner:1.5.2")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("com.squareup.leakcanary:leakcanary-android:2.12")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
